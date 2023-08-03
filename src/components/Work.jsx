@@ -1,20 +1,6 @@
 import Workitem from "./Workitem";
 const data = [
     {
-        year: 2021,
-        title: 'Seo Expert',
-        duration: '1 year',
-        details:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti, inventore odio quisquam officiis quaerat saepe mollitia, corrupti cumque nihil minus veniam iure exercitationem ducimus quis!.'
-    },
-    {
-        year: 2022,
-        title: 'AR Executive',
-        duration: '3 Months',
-        details:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti, inventore odio quisquam officiis quaerat saepe mollitia, corrupti cumque nihil minus veniam iure exercitationem ducimus quis!.'
-    },
-    {
         year: 2023,
         title: 'React Js Internship',
         duration: '6 Months',
@@ -28,6 +14,21 @@ const data = [
         details:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti, inventore odio quisquam officiis quaerat saepe mollitia, corrupti cumque nihil minus veniam iure exercitationem ducimus quis!.'
     },
+    {
+        year: 2021,
+        title: 'Seo Expert',
+        duration: '1 year',
+        details:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti, inventore odio quisquam officiis quaerat saepe mollitia, corrupti cumque nihil minus veniam iure exercitationem ducimus quis!.'
+    },
+    {
+        year: 2022,
+        title: 'AR Executive',
+        duration: '3 Months',
+        details:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti, inventore odio quisquam officiis quaerat saepe mollitia, corrupti cumque nihil minus veniam iure exercitationem ducimus quis!.'
+    },
+
 
 ]
 const Work = () => {
