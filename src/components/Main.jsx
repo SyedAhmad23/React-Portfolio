@@ -1,45 +1,52 @@
-import { TypeAnimation } from 'react-type-animation'
-import main1 from "../images/main1.jpg";
-import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+import { TypeAnimation } from "react-type-animation";
+import React from "react";
+import animation from "../images/hero.gif";
+// import backgroundImageUrl from "../images/hero-bg.gif";
+
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
-    return (
-        <div id="main">
-            <img className="w-full h-screen " src={main1} />
-            <div className="w-full h-screen absolute top-0 left-0 bg-white/30">
-                <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center lg:items-start'>
-                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-950'>This is Syed Ahmad</h1>
-                    <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-950'>
-                        I'm a
-                        <TypeAnimation
-                            sequence={[
-                                // Same substring at the start will only be typed out once, initially
-                                'Software Engineer',
-                                2000, // wait 1s before replacing "Mice" with "Hamsters"
-                                'Website Developer',
-                                2000,
-                                'Front End Developer',
-                                2000,
-                                'Seo Expert',
-                                2000,
-                            ]}
-                            wrapper="div"
-                            speed={50}
-                            cursor={true}
-                            style={{ fontSize: '1em', paddingLeft: '5px' }}
-                            repeat={Infinity}
-                        />
-                    </h2>
-                    <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                        <FaTwitter className="cursor-pointer" size={20} />
-                        <FaFacebookF className="cursor-pointer" size={20} />
-                        <FaInstagram className="cursor-pointer" size={20} />
-                        <FaLinkedinIn className="cursor-pointer" size={20} />
-                    </div>
-                </div>
+  const backgroundImageUrl = "url('../images/hero-bg.gif')";
+  return (
+    <div id="main" className="bg-blue-100">
+      <div className="grid md:grid-cols-2 gap-20 py-40 max-w-[1040px] m-auto md:pl-20">
+        <div className=" left-0 bg-white/10">
+          <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center lg:items-start">
+            <h1 className="sm:text-5xl text-4xl font-bold text-gray-950">
+              This is Syed Ahmad
+            </h1>
+            <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-950">
+              I'm a
+              <TypeAnimation
+                sequence={[
+                  "Software Engineer",
+                  2000,
+                  "Front End Developer",
+                  2000,
+                  "Front End Dsigner",
+                  2000,
+                ]}
+                wrapper="div"
+                speed={50}
+                cursor={true}
+                style={{ fontSize: "1em", paddingLeft: "5px" }}
+                repeat={Infinity}
+              />
+            </h2>
+            <div className="flex justify-between pt-6 max-w-[50px] w-full">
+              <a href="https://github.com/SyedAhmad23?tab=repositories">
+                <FaGithub className="cursor-pointer" size={20} />
+              </a>
+              <a href="https://www.linkedin.com/in/ahmad-shah-138442225/">
+                <FaLinkedinIn className="cursor-pointer" size={20} />
+              </a>
             </div>
+          </div>
         </div>
-    );
+        <img src={animation} alt="" />
+      </div>
+    </div>
+  );
 };
 
 export default Main;
