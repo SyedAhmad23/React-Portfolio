@@ -1,12 +1,10 @@
 import { TypeAnimation } from "react-type-animation";
 import React from "react";
 import animation from "../images/hero.gif";
-// import backgroundImageUrl from "../images/hero-bg.gif";
 
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
-  const backgroundImageUrl = "url('../images/hero-bg.gif')";
   return (
     <div id="main" className="bg-blue-100">
       <div className="grid md:grid-cols-2 gap-20 py-40 max-w-[1040px] m-auto md:pl-20">

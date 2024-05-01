@@ -18,6 +18,7 @@ const Contact = () => {
               className="border-2 rounded-lg p-3 flex border-gray-300"
               type="text"
               name="name"
+              required
             />
           </div>
           <div className="flex flex-col">

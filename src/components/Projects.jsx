@@ -9,9 +9,9 @@ const Projects = () => {
     <div id="project" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-blue-900">Projects</h1>
       <p className="text-center py-8">
-        I'm a passionate React.js developer with a strong background in building
-        web applications and components. Here are some of my recent projects and
-        skills:
+        I'm a passionate Front end developer with a strong background in
+        building web applications and components. Here are some of my recent
+        projects :
       </p>
       <div className="grid md:grid-cols-2 gap-12">
         <Projectitem

@@ -31,7 +31,7 @@ const Technologies = () => {
       <div className="grid items-center justify-center gap-10 md:gap-0 py-28">
         <div className="w-full">
           <h1 className="text-4xl font-bold text-center text-blue-900 mb-6">
-            Our Technologies
+            Technologies <span className="text-black text-xl">I Use</span>
           </h1>
         </div>
         <div>
