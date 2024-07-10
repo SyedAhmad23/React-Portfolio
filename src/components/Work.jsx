@@ -3,18 +3,14 @@ import React from "react";
 const data = [
   {
     year: "2023/2024",
-    title: "React Developer",
+    title: "NextJS Developer",
     company: "Deversiti IT Solutions",
     duration: "11/2023-present",
-    details: `Develop reusable and efficient React components that power
-    the user interface of web applications
-    Implement state management using Reacts built-in state or
-    external libraries like Redux Toolkit to manage complex
-    application data and ensure data consistency..
-    I use UI libraries to build web apps that look modern and work
-    consistently, with ready-made parts and styles.
-    Participate in code reviews to provide feedback and ensure
-    code quality and adherence to coding standards.`,
+    details: `Develop reusable and efficient React components that power the user interface of web applications.
+Implement state management using React's built-in state or external libraries like Redux Toolkit to manage complex application data and ensure data consistency.
+Primarily work with Next.js 14, TypeScript, Redux Toolkit, React Query, RTK Query, Shadcn, and Tailwind CSS.
+Utilize UI libraries to build web apps that look modern and work consistently, with ready-made parts and styles.
+Participate in code reviews to provide feedback and ensure code quality and adherence to coding standards.`,
   },
   {
     year: "2023",

@@ -6,14 +6,14 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div id="main" className="bg-blue-100">
+    <div id="main" className="bg-gray-900">
       <div className="grid md:grid-cols-2 gap-20 py-40 max-w-[1040px] m-auto md:pl-20">
-        <div className=" left-0 bg-white/10">
+        <div className=" left-0 ">
           <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center lg:items-start">
-            <h1 className="sm:text-5xl text-4xl font-bold text-gray-950">
+            <h1 className="sm:text-5xl text-4xl font-bold text-white">
               This is Syed Ahmad
             </h1>
-            <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-950">
+            <h2 className="flex sm:text-3xl text-2xl pt-4 text-white">
               I'm a
               <TypeAnimation
                 sequence={[
@@ -21,7 +21,7 @@ const Main = () => {
                   2000,
                   "Front End Developer",
                   2000,
-                  "Front End Dsigner",
+                  "Front End Designer",
                   2000,
                 ]}
                 wrapper="div"
@@ -33,10 +33,14 @@ const Main = () => {
             </h2>
             <div className="flex justify-between pt-6 max-w-[50px] w-full">
               <a href="https://github.com/SyedAhmad23?tab=repositories">
-                <FaGithub className="cursor-pointer" size={20} />
+                <FaGithub className="cursor-pointer" size={20} color="white" />
               </a>
-              <a href="https://www.linkedin.com/in/ahmad-shah-138442225/">
-                <FaLinkedinIn className="cursor-pointer" size={20} />
+              <a href="https://www.linkedin.com/in/ahmad3236">
+                <FaLinkedinIn
+                  className="cursor-pointer"
+                  size={20}
+                  color="white"
+                />
               </a>
             </div>
           </div>
