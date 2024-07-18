@@ -16,7 +16,7 @@ const Projects = () => {
       <div className="grid md:grid-cols-2 gap-12">
         <Projectitem
           img={ecommImg}
-          title="EcommScrapper"
+          title="Inventory Management System"
           // previewUrl="https://github.com/send-2-irfan/inventory-management-system/tree/ahmad"
           gitUrl="https://github.com/send-2-irfan/inventory-management-system/tree/ahmad"
         />
@@ -35,7 +35,7 @@ const Projects = () => {
         <Projectitem
           img={VeraImg}
           title="Vera"
-          previewUrl="https://github.com/Zeeshan044/vera.git"
+          // previewUrl="https://github.com/Zeeshan044/vera.git"
           gitUrl="https://github.com/Zeeshan044/vera.git"
         />
       </div>
