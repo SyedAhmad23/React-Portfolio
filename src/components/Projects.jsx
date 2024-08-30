@@ -3,7 +3,7 @@ import Projectitem from "./Projectitem";
 import PayonImg from "../images/payon.png";
 import VeraImg from "../images/vera.png";
 import ResetImg from "../images/reset.png";
-import ecommImg from "../images/ims.png";
+import ImsImg from "../images/ims.png";
 const Projects = () => {
   return (
     <div id="project" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
@@ -15,7 +15,7 @@ const Projects = () => {
       </p>
       <div className="grid md:grid-cols-2 gap-12">
         <Projectitem
-          img={ecommImg}
+          img={ImsImg}
           title="Inventory Management System"
           previewUrl="https://github.com/send-2-irfan/inventory-management-system/tree/ahmad"
           gitUrl="https://github.com/send-2-irfan/inventory-management-system/tree/ahmad"
