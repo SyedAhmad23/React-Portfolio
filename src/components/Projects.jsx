@@ -3,7 +3,7 @@ import Projectitem from "./Projectitem";
 import PayonImg from "../images/payon.png";
 import VeraImg from "../images/vera.png";
 import ResetImg from "../images/reset.png";
-import ImsImg from "../images/ims.png";
+import ImsImg from "../images/Ims.png";
 const Projects = () => {
   return (
     <div id="project" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
