@@ -11,7 +11,7 @@ const Projectitem = ({ img, title, previewUrl, gitUrl }) => {
         className="rounded-xl group-hover:opacity-10 h-52"
       />
 
-      <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 hover:scale-105 transition-all duration-500 ">
+      <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden rounded-xl group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
         <a
           href={gitUrl}
           className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"

@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Projectitem from "./Projectitem";
 import PayonImg from "../images/payon.png";
@@ -10,7 +9,7 @@ const Projects = () => {
     <div id="project" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-blue-900">Projects</h1>
       <p className="text-center py-8">
-        I'm a passionate Front end developer with a strong background in
+        I am a passionate Front end developer with a strong background in
         building web applications and components. Here are some of my recent
         projects :
       </p>

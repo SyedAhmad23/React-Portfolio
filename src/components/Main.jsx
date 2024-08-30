@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import { TypeAnimation } from "react-type-animation";
 import React from "react";
 import animation from "../images/hero.gif";
@@ -18,7 +17,7 @@ const Main = () => {
               This is Syed Ahmad
             </h1>
             <h2 className="flex sm:text-3xl text-2xl pt-4 text-white">
-              I'm a
+              I am a
               <TypeAnimation
                 sequence={[
                   "Software Engineer",
