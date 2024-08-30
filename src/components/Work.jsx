@@ -31,7 +31,7 @@ Participate in code reviews to provide feedback and ensure code quality and adhe
 ];
 const Work = () => {
   return (
-    <div id="work" className="max-w-[1040px] m-auto md:pl-20 py-16 p-4">
+    <div id="work" className="max-w-[1040px] m-auto md:pl-20 py-16 p-2">
       <h1 className="text-4xl font-bold text-center text-blue-900 mb-6">
         Work
       </h1>

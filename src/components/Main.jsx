@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { TypeAnimation } from "react-type-animation";
 import React from "react";
 import animation from "../images/hero.gif";
@@ -6,10 +7,13 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div id="main" className="bg-gray-900">
-      <div className="grid md:grid-cols-2 gap-20 py-40 max-w-[1040px] m-auto md:pl-20">
-        <div className=" left-0 ">
-          <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center lg:items-start">
+    <div
+      id="main"
+      className="bg-gray-900 min-h-screen flex items-center justify-center p-5 md:p-0"
+    >
+      <div className="grid md:grid-cols-2 gap-20 max-w-[1040px] w-full items-center justify-center">
+        <div>
+          <div className="max-w-[700px] h-full w-full flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
             <h1 className="sm:text-5xl text-4xl font-bold text-white">
               This is Syed Ahmad
             </h1>
@@ -45,7 +49,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <img src={animation} alt="" />
+        <img src={animation} alt="" className="m-auto" />
       </div>
     </div>
   );

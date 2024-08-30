@@ -5,10 +5,8 @@ import {
   AiOutlineHome,
   AiOutlineProject,
   AiOutlineMail,
-  AiOutlineTrademark,
 } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
-import { BsPerson } from "react-icons/bs";
 import { GrTechnology } from "react-icons/gr";
 
 const Sidenav = () => {
@@ -20,7 +18,8 @@ const Sidenav = () => {
     <div>
       <AiOutlineMenu
         onClick={handleNav}
-        className="absolute top-4 right-4 z-[99] md:hidden"
+        size={20}
+        className="absolute top-4 right-4 z-[99] md:hidden text-yellow-600"
       />
       {nav ? (
         <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">

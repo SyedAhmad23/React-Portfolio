@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Projectitem from "./Projectitem";
 import PayonImg from "../images/payon.png";
@@ -17,7 +18,7 @@ const Projects = () => {
         <Projectitem
           img={ecommImg}
           title="Inventory Management System"
-          // previewUrl="https://github.com/send-2-irfan/inventory-management-system/tree/ahmad"
+          previewUrl="https://github.com/send-2-irfan/inventory-management-system/tree/ahmad"
           gitUrl="https://github.com/send-2-irfan/inventory-management-system/tree/ahmad"
         />
         <Projectitem
@@ -35,7 +36,7 @@ const Projects = () => {
         <Projectitem
           img={VeraImg}
           title="Vera"
-          // previewUrl="https://github.com/Zeeshan044/vera.git"
+          previewUrl="https://github.com/Zeeshan044/vera.git"
           gitUrl="https://github.com/Zeeshan044/vera.git"
         />
       </div>
